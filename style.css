@@ -162,6 +162,7 @@ body {
     flex-direction: row;
     padding: 20px 48px 20px 32px;
     gap: 32px;
+    align-items: flex-start;
   }
 
   .stars__container {
