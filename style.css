@@ -197,11 +197,23 @@ body {
    .testimonials {
     display: flex;
     gap: 30px;
+   }
 
+   .testimonials__author {
+    margin-bottom: 31px;
    }
 
    .testimonials__container {
       max-width: 21.875rem;
+      height: 100%;
+   }
+
+   .testimonials__container:nth-child(2) {
+    margin-top: 16px;
+   }
+
+   .testimonials__container:last-child {
+    margin-top: 32px;
    }
 
    .testimonials__container:not(:last-child) {
